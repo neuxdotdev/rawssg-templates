@@ -1,7 +1,6 @@
 RAWSSG-TEMPLATES
 
 About
-
 rawssg-templates is the official template repository used by the rawssg project.
 
 This repository provides the template system layer within the rawssg ecosystem. It defines how content is structured, rendered, and presented after being processed by the core engine.
@@ -9,37 +8,32 @@ This repository provides the template system layer within the rawssg ecosystem. 
 rawssg-templates is not a standalone product. It operates as a modular component within the rawssg architecture, allowing the presentation layer to evolve independently from the engine and UI logic.
 
 Role in the Ecosystem
-
 Within the rawssg structure, rawssg-templates has the following responsibilities:
 
-* Defining layout structures for generated static sites
-* Providing reusable template components
-* Handling presentation logic separate from engine processing
-* Enabling theme customization without modifying core behavior
+· Defining layout structures for generated static sites
+· Providing reusable template components
+· Handling presentation logic separate from engine processing
+· Enabling theme customization without modifying core behavior
 
 This separation ensures that rendering logic and visual structure remain independent from content parsing and system orchestration.
 
 Design Principles
-
 The template system is designed with the following principles:
 
-* Minimal abstraction overhead
-* Clear separation between data and presentation
-* Predictable rendering behavior
-* Extensibility without increasing complexity
+· Minimal abstraction overhead
+· Clear separation between data and presentation
+· Predictable rendering behavior
+· Extensibility without increasing complexity
 
 The goal is not to introduce a heavy theming framework, but to provide a structured and transparent way to control output structure.
 
 Relationship to rawssg
-
 The main rawssg repository can be found at:
-
-[https://github.com/neuxdotdev/rawssg.git]
+https://github.com/neuxdotdev/rawssg.git
 
 The core engine processes content and passes structured data to the template layer. rawssg-templates defines how that structured data is transformed into final static output.
 
 For a complete architectural overview, refer to the main repository documentation.
 
 Note
-
 rawssg-templates is developed as part of rawssg’s modular ecosystem. Changes to this repository may directly affect the structure and appearance of generated sites.
