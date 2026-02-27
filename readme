@@ -34,7 +34,7 @@ Relationship to rawssg
 
 The main rawssg repository can be found at:
 
-[https://github.com/neuxdotdev/rawssg.git](https://github.com/neuxdotdev/rawssg.git)
+[https://github.com/neuxdotdev/rawssg.git]
 
 The core engine processes content and passes structured data to the template layer. rawssg-templates defines how that structured data is transformed into final static output.
 
